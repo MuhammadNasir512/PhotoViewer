@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		028082F927D6909D0016466A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028082F827D6909D0016466A /* AppDelegate.swift */; };
-		028082FB27D6909D0016466A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028082FA27D6909D0016466A /* SceneDelegate.swift */; };
-		028082FD27D6909D0016466A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028082FC27D6909D0016466A /* ViewController.swift */; };
 		0280830027D6909D0016466A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028082FE27D6909D0016466A /* Main.storyboard */; };
 		0280830227D6909F0016466A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0280830127D6909F0016466A /* Assets.xcassets */; };
 		0280830527D6909F0016466A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0280830327D6909F0016466A /* LaunchScreen.storyboard */; };
-		0280831027D690A00016466A /* PhotoViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280830F27D690A00016466A /* PhotoViewerTests.swift */; };
-		0280831A27D690A00016466A /* PhotoViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280831927D690A00016466A /* PhotoViewerUITests.swift */; };
-		0280831C27D690A00016466A /* PhotoViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280831B27D690A00016466A /* PhotoViewerUITestsLaunchTests.swift */; };
+		0280832D27D6910D0016466A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280832927D6910D0016466A /* AppDelegate.swift */; };
+		0280832E27D6910D0016466A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280832A27D6910D0016466A /* SceneDelegate.swift */; };
+		0280832F27D6910D0016466A /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280832C27D6910D0016466A /* PhotoListViewController.swift */; };
+		0280833127D6917B0016466A /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280833027D6917B0016466A /* PhotoListViewModel.swift */; };
+		0280833327D694480016466A /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280833227D694480016466A /* PhotoCell.swift */; };
+		0280833927D7A9850016466A /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280833727D7A9850016466A /* PhotoDetailsViewController.swift */; };
+		0280833A27D7A9850016466A /* PhotoDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0280833827D7A9850016466A /* PhotoDetailsViewController.xib */; };
+		0280833C27D7A99A0016466A /* PhotoDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280833B27D7A99A0016466A /* PhotoDetailsViewModel.swift */; };
+		0280834927D7CC600016466A /* PermissionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280834727D7CC600016466A /* PermissionHandler.swift */; };
+		0280834D27D7CCE00016466A /* PhotoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0280834C27D7CCE00016466A /* PhotoCellViewModel.swift */; };
+		029C41FA27D8C54600BE899E /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C41F927D8C54600BE899E /* Protocols.swift */; };
+		029C41FD27D8C85500BE899E /* PhotoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C41FC27D8C85500BE899E /* PhotoListViewModelTests.swift */; };
+		029C41FF27D8CF2E00BE899E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C41FE27D8CF2E00BE899E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +33,28 @@
 			remoteGlobalIDString = 028082F427D6909D0016466A;
 			remoteInfo = PhotoViewer;
 		};
-		0280831627D690A00016466A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 028082ED27D6909D0016466A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 028082F427D6909D0016466A;
-			remoteInfo = PhotoViewer;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		028082F527D6909D0016466A /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		028082F827D6909D0016466A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		028082FA27D6909D0016466A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		028082FC27D6909D0016466A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		028082FF27D6909D0016466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0280830127D6909F0016466A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0280830427D6909F0016466A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0280830627D6909F0016466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0280830B27D690A00016466A /* PhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0280830F27D690A00016466A /* PhotoViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerTests.swift; sourceTree = "<group>"; };
-		0280831527D690A00016466A /* PhotoViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0280831927D690A00016466A /* PhotoViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerUITests.swift; sourceTree = "<group>"; };
-		0280831B27D690A00016466A /* PhotoViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0280832927D6910D0016466A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0280832A27D6910D0016466A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0280832C27D6910D0016466A /* PhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		0280833027D6917B0016466A /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		0280833227D694480016466A /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		0280833727D7A9850016466A /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		0280833827D7A9850016466A /* PhotoDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailsViewController.xib; sourceTree = "<group>"; };
+		0280833B27D7A99A0016466A /* PhotoDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewModel.swift; sourceTree = "<group>"; };
+		0280834727D7CC600016466A /* PermissionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionHandler.swift; sourceTree = "<group>"; };
+		0280834C27D7CCE00016466A /* PhotoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCellViewModel.swift; sourceTree = "<group>"; };
+		029C41F927D8C54600BE899E /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		029C41FC27D8C85500BE899E /* PhotoListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListViewModelTests.swift; sourceTree = "<group>"; };
+		029C41FE27D8CF2E00BE899E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +72,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0280831227D690A00016466A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +80,6 @@
 			children = (
 				028082F727D6909D0016466A /* PhotoViewer */,
 				0280830E27D690A00016466A /* PhotoViewerTests */,
-				0280831827D690A00016466A /* PhotoViewerUITests */,
 				028082F627D6909D0016466A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +89,6 @@
 			children = (
 				028082F527D6909D0016466A /* PhotoViewer.app */,
 				0280830B27D690A00016466A /* PhotoViewerTests.xctest */,
-				0280831527D690A00016466A /* PhotoViewerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +96,10 @@
 		028082F727D6909D0016466A /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
-				028082F827D6909D0016466A /* AppDelegate.swift */,
-				028082FA27D6909D0016466A /* SceneDelegate.swift */,
-				028082FC27D6909D0016466A /* ViewController.swift */,
+				0280834527D7CC600016466A /* Library */,
+				0280832827D6910D0016466A /* AppDelegate */,
+				0280832B27D6910D0016466A /* PhotoList */,
+				0280833627D7A3270016466A /* PhotoDetails */,
 				028082FE27D6909D0016466A /* Main.storyboard */,
 				0280830127D6909F0016466A /* Assets.xcassets */,
 				0280830327D6909F0016466A /* LaunchScreen.storyboard */,
@@ -113,18 +111,57 @@
 		0280830E27D690A00016466A /* PhotoViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				0280830F27D690A00016466A /* PhotoViewerTests.swift */,
+				029C41FB27D8C85500BE899E /* PhotoList */,
 			);
 			path = PhotoViewerTests;
 			sourceTree = "<group>";
 		};
-		0280831827D690A00016466A /* PhotoViewerUITests */ = {
+		0280832827D6910D0016466A /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				0280831927D690A00016466A /* PhotoViewerUITests.swift */,
-				0280831B27D690A00016466A /* PhotoViewerUITestsLaunchTests.swift */,
+				0280832927D6910D0016466A /* AppDelegate.swift */,
+				0280832A27D6910D0016466A /* SceneDelegate.swift */,
 			);
-			path = PhotoViewerUITests;
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0280832B27D6910D0016466A /* PhotoList */ = {
+			isa = PBXGroup;
+			children = (
+				0280832C27D6910D0016466A /* PhotoListViewController.swift */,
+				0280833027D6917B0016466A /* PhotoListViewModel.swift */,
+				0280833227D694480016466A /* PhotoCell.swift */,
+				0280834C27D7CCE00016466A /* PhotoCellViewModel.swift */,
+			);
+			path = PhotoList;
+			sourceTree = "<group>";
+		};
+		0280833627D7A3270016466A /* PhotoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0280833727D7A9850016466A /* PhotoDetailsViewController.swift */,
+				0280833827D7A9850016466A /* PhotoDetailsViewController.xib */,
+				0280833B27D7A99A0016466A /* PhotoDetailsViewModel.swift */,
+			);
+			path = PhotoDetails;
+			sourceTree = "<group>";
+		};
+		0280834527D7CC600016466A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				029C41FE27D8CF2E00BE899E /* Extensions.swift */,
+				0280834727D7CC600016466A /* PermissionHandler.swift */,
+				029C41F927D8C54600BE899E /* Protocols.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		029C41FB27D8C85500BE899E /* PhotoList */ = {
+			isa = PBXGroup;
+			children = (
+				029C41FC27D8C85500BE899E /* PhotoListViewModelTests.swift */,
+			);
+			path = PhotoList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +202,6 @@
 			productReference = 0280830B27D690A00016466A /* PhotoViewerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0280831427D690A00016466A /* PhotoViewerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0280832527D690A00016466A /* Build configuration list for PBXNativeTarget "PhotoViewerUITests" */;
-			buildPhases = (
-				0280831127D690A00016466A /* Sources */,
-				0280831227D690A00016466A /* Frameworks */,
-				0280831327D690A00016466A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0280831727D690A00016466A /* PBXTargetDependency */,
-			);
-			name = PhotoViewerUITests;
-			productName = PhotoViewerUITests;
-			productReference = 0280831527D690A00016466A /* PhotoViewerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +216,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					0280830A27D690A00016466A = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 028082F427D6909D0016466A;
-					};
-					0280831427D690A00016466A = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 028082F427D6909D0016466A;
 					};
@@ -221,7 +236,6 @@
 			targets = (
 				028082F427D6909D0016466A /* PhotoViewer */,
 				0280830A27D690A00016466A /* PhotoViewerTests */,
-				0280831427D690A00016466A /* PhotoViewerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +247,12 @@
 			files = (
 				0280830527D6909F0016466A /* LaunchScreen.storyboard in Resources */,
 				0280830227D6909F0016466A /* Assets.xcassets in Resources */,
+				0280833A27D7A9850016466A /* PhotoDetailsViewController.xib in Resources */,
 				0280830027D6909D0016466A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0280830927D690A00016466A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0280831327D690A00016466A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +266,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				028082FD27D6909D0016466A /* ViewController.swift in Sources */,
-				028082F927D6909D0016466A /* AppDelegate.swift in Sources */,
-				028082FB27D6909D0016466A /* SceneDelegate.swift in Sources */,
+				0280833927D7A9850016466A /* PhotoDetailsViewController.swift in Sources */,
+				0280832D27D6910D0016466A /* AppDelegate.swift in Sources */,
+				0280833C27D7A99A0016466A /* PhotoDetailsViewModel.swift in Sources */,
+				029C41FA27D8C54600BE899E /* Protocols.swift in Sources */,
+				0280834927D7CC600016466A /* PermissionHandler.swift in Sources */,
+				0280833327D694480016466A /* PhotoCell.swift in Sources */,
+				0280834D27D7CCE00016466A /* PhotoCellViewModel.swift in Sources */,
+				0280833127D6917B0016466A /* PhotoListViewModel.swift in Sources */,
+				0280832F27D6910D0016466A /* PhotoListViewController.swift in Sources */,
+				029C41FF27D8CF2E00BE899E /* Extensions.swift in Sources */,
+				0280832E27D6910D0016466A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0280831027D690A00016466A /* PhotoViewerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0280831127D690A00016466A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0280831A27D690A00016466A /* PhotoViewerUITests.swift in Sources */,
-				0280831C27D690A00016466A /* PhotoViewerUITestsLaunchTests.swift in Sources */,
+				029C41FD27D8C85500BE899E /* PhotoListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +295,6 @@
 			isa = PBXTargetDependency;
 			target = 028082F427D6909D0016466A /* PhotoViewer */;
 			targetProxy = 0280830C27D690A00016466A /* PBXContainerItemProxy */;
-		};
-		0280831727D690A00016466A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 028082F427D6909D0016466A /* PhotoViewer */;
-			targetProxy = 0280831627D690A00016466A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,25 +439,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CY9HM7GKY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Browising images to find salient portion in images";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Home.PhotoViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnapps.testing01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,25 +472,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CY9HM7GKY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Browising images to find salient portion in images";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Home.PhotoViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnapps.testing01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -524,40 +538,6 @@
 			};
 			name = Release;
 		};
-		0280832627D690A00016466A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Home.PhotoViewerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PhotoViewer;
-			};
-			name = Debug;
-		};
-		0280832727D690A00016466A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Home.PhotoViewerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PhotoViewer;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -584,15 +564,6 @@
 			buildConfigurations = (
 				0280832327D690A00016466A /* Debug */,
 				0280832427D690A00016466A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0280832527D690A00016466A /* Build configuration list for PBXNativeTarget "PhotoViewerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0280832627D690A00016466A /* Debug */,
-				0280832727D690A00016466A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
